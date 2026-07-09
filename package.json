@@ -1,0 +1,16 @@
+{
+  "name": "shift-signaling-server",
+  "version": "1.0.0",
+  "description": "Minimal WebSocket signaling server for Shift voice calls (WebRTC offer/answer/ICE relay). Does not carry any audio itself.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10"
+  }
+}
